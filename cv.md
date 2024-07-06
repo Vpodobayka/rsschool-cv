@@ -24,3 +24,39 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt vero illo exp
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ***
+### Code Example
+``` 
+  const personalMovieDB = {
+  count: numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false,
+};
+
+for (let i = 0; i < 2; i++) {
+  const a = prompt('last movie watched', ''),
+    b = prompt('How much would you rate it?', '');
+
+  if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+    personalMovieDB.movies[a] = b;
+    console.log('Done');
+  } else {
+    console.log('Eror!(');
+    i--;
+  }
+}
+``` 
+***
+#### Courses:
+![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white)
+* Ivan Petrichenko
+  Complete course on JavaScript + React - from scratch to results
+* From 0 to 1
+
+![FreeCodeCamp](https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green)![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)
+***
+#### Languages:
+* Ukrainian - Native
+* Polish - Basic (After two years of living in Poland, I can explain myself)
+* English - A2
